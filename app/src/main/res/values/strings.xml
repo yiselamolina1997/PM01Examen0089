@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PM01Examen0089</string>
+    <string name="nombres">Nombre del contacto</string>
+    <string name="telefono">Numero de Celular</string>
+    <string name="nota">Notas</string>
+    <string name="respuesta">¡Agregado exitosamente!</string>
+    <string name="errorIngreso">¡Error, no pudo ser registrado!</string>
+</resources>

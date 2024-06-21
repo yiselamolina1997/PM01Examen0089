@@ -1,0 +1,5 @@
+<!-- res/drawable/button_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#FFFFFF" /> <!-- Color blanco -->
+    <corners android:radius="16dp"/> <!-- Radio de las esquinas ovaladas -->
+</shape>
