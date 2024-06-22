@@ -2,7 +2,7 @@ package com.example.pm01examen0089.Config;
 
 public class Transacciones {
     //Nombre de la base de datos
-    public static final String namedb = "PM1E10250";
+    public static final String namedb = "PM01Examen0089";
 
     //Tabla de Contactos
     public static final String tablaContactos = "contactos";
@@ -38,7 +38,7 @@ public class Transacciones {
     public static final String DropTablePais = "DROP TABLE IF EXISTS" + tablaPaises;
     public static final String SelectTablePais = "SELECT * FROM "+ Transacciones.tablaPaises;
     public static final String InsertPaises = "INSERT INTO " + tablaPaises + "(pais, codigo_area) VALUES" +
-            "    ('Seleccione un Campo', '(0)')," +
+            "    ('Seleccionar un pais')," +
             "    ('Honduras', '(504)')," +
             "    ('Costa Rica', '(506)')," +
             "    ('Guatemala', '(502)')," +
