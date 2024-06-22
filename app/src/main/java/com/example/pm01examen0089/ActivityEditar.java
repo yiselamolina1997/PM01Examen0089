@@ -318,6 +318,8 @@ public class ActivityEditar extends AppCompatActivity {
             Log.e("DatabaseError", "Error al actualizar contacto: " + e.getMessage());
             Toast.makeText(this, "Error al actualizar contacto", Toast.LENGTH_SHORT).show();
         }
+        Intent intent = new Intent(ActivityEditar.this, ActivityContactos.class);
+        startActivity(intent);
     }
 
 }
